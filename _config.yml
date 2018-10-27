@@ -22,7 +22,7 @@ url: "https://school22.github.io" # the base hostname & protocol for your site, 
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
