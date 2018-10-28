@@ -1,0 +1,28 @@
+{
+  "name": "school22.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sitemap": "node script/generatesitemap.js",
+    "parse": "node script/parse.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/school22/school22.github.io.git"
+  },
+  "author": "Oleksii Kersov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/school22/school22.github.io/issues"
+  },
+  "homepage": "https://github.com/school22/school22.github.io#readme",
+  "dependencies": {
+    "node-fetch": "^2.2.0",
+    "puppeteer": "^1.9.0",
+    "sitemap-generator": "^8.3.1",
+    "turndown": "^5.0.1",
+    "xml2js": "^0.4.19"
+  }
+}
