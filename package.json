@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sitemap": "node script/generatesitemap.js",
-    "parse": "node script/parse.js"
+    "parse": "node script/parse.js",
+    "server": "sh ./script/server"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,12 @@
   },
   "homepage": "https://github.com/school22/school22.github.io#readme",
   "dependencies": {
+    "imagemin": "^6.0.0",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-pngquant": "^6.0.0",
     "node-fetch": "^2.2.0",
     "puppeteer": "^1.9.0",
+    "rimraf": "^2.6.2",
     "sitemap-generator": "^8.3.1",
     "turndown": "^5.0.1",
     "xml2js": "^0.4.19"
